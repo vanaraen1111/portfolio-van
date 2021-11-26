@@ -37,9 +37,6 @@ const IndexPage = ({ data }) => {
         />
         <Hero content={data.hero.edges} />
         <Interests content={data.interests.edges} />
-        <About content={data.about.edges} />
-        <Projects content={data.projects.edges} />
-        <Contact content={data.contact.edges} />
       </Layout>
     </GlobalStateProvider>
   )

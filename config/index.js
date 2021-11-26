@@ -2,7 +2,7 @@ module.exports = {
   //-- SITE SETTINGS -----
   author: "@konstantinmuenster",
   siteTitle: "Portfolio Minimal",
-  siteShortTitle: "Van's Portfolio", // Used as logo text in header, footer, and splash screen
+  siteShortTitle: "Lyndia's Portfolio", // Used as logo text in header, footer, and splash screen
   siteDescription:
     "A modern one-page portfolio with a clean yet expressive design.",
   siteUrl: "https://van-portfolio.netlify.app/",
@@ -66,7 +66,7 @@ module.exports = {
     },
     {
       name: "Mail",
-      url: "mailto:vodkachoke65@gmail.com",
+      url: "mailto:lyndia.88@gmail.com",
     },
   ],
 
@@ -75,15 +75,15 @@ module.exports = {
     menu: [
       {
         name: "About Me",
-        url: "/#about",
+        url: "/aboutme",
       },
-      {
+      /*  {
         name: "Projects Involvement",
         url: "/#projects",
-      },
+      },*/
       {
-        name: "Contact",
-        url: "/#contact",
+        name: "Freelance Works",
+        url: "/freelance",
       },
     ],
     button: {
