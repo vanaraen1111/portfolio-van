@@ -62,13 +62,12 @@ module.exports = {
     },
     {
       name: "Github",
-      url:
-        "https://github.com/vanaraen1111/portfolio-van",
+      url: "https://github.com/vanaraen1111/portfolio-van",
     },
-     {
-       name: "Mail",
-       url: "mailto:vodkachoke65@gmail.com",
-     },
+    {
+      name: "Mail",
+      url: "mailto:vodkachoke65@gmail.com",
+    },
   ],
 
   //-- NAVIGATION SETTINGS -----
@@ -79,7 +78,7 @@ module.exports = {
         url: "/#about",
       },
       {
-        name: "Projects",
+        name: "Projects Involvement",
         url: "/#projects",
       },
       {
@@ -90,7 +89,7 @@ module.exports = {
     button: {
       useFileName: true,
       name: "Resume",
-    //  fileName: "goldenpuppy.pdf", // the file has to be placed inside the static folder at the root level
+      //  fileName: "goldenpuppy.pdf", // the file has to be placed inside the static folder at the root level
       fileName: "resume_lyndia.pdf", // the file has to be placed inside the static folder at the root level
       url: "", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
     },
